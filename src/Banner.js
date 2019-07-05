@@ -3,18 +3,23 @@ import {Link} from "react-router-dom";
 
 const Banner =(props)=>{
     return(
-        <div>
-            <h1>
-                Events App
+        <div className='nav-bar-content'>
+            <nav>
+                <li className='header-left'>
+                    <h1>Events App</h1>
+                </li>
+                <span className='header-right'>
                 <nav>
-                    <div>
+                    <li>
                         <Link to="/">Home</Link>
-                    </div>
-                    <div>
+                    </li>
+                    <li>
                         <Link to="/Events/">Events</Link>
-                    </div>
+                    </li>
                 </nav>
-            </h1>
+                </span>
+            </nav>
+
         </div>
     )
 }

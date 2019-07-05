@@ -29,7 +29,7 @@ class App extends React.Component {
 }
 
 const Index =() =>{
-    return  <h1>Home</h1>;
+    return  <h1>Home page content goes here...</h1>;
 }
 
 const EventsPage=()=> {
